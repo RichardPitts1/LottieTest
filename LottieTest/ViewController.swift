@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Lottie
+
 
 class ViewController: UIViewController {
 
@@ -15,11 +17,27 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+
+    @IBAction func showAnimation(_ sender: Any) {
+        let animationView = LOTAnimationView.animationNamed("load_space copy")
+        animationView?.frame = CGRect(x: 150, y: 300, width: 200, height: 200)
+        animationView?.contentMode = .scaleToFill
+        animationView.customMirror
+        
+        self.view.addSubview(animationView!)
+        animationView?.play()
+        
+        
+        let animationView2 = LOTAnimationView.animationNamed("download_icon_success")
+        animationView2?.frame = CGRect(x: 150, y: 500, width: 100, height: 100)
+        animationView2?.contentMode = .scaleToFill
+        animationView2.customMirror
+        
+        self.view.addSubview(animationView2!)
+        animationView2?.play()
     }
-
-
+    // Here is some bs text
+    
 }
 
