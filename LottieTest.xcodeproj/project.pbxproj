@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BDDBE7B1F2F891300F5DCC7 /* download_icon_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = download_icon_success.json; path = ../../Downloads/download_icon_success.json; sourceTree = "<group>"; };
+		1BDDBE7B1F2F891300F5DCC7 /* download_icon_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = download_icon_success.json; path = ../../Downloads/download_icon_success.json; sourceTree = SOURCE_ROOT; };
 		1BE44CC11F2F87860063635F /* LottieTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE44CC41F2F87860063635F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BE44CC61F2F87860063635F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		1BE44CCB1F2F87860063635F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BE44CCE1F2F87860063635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BE44CD01F2F87860063635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BE44CD61F2F879C0063635F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		1BE44CD81F2F889A0063635F /* load_space copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "load_space copy.json"; path = "../../Downloads/load_space copy.json"; sourceTree = "<group>"; };
+		1BE44CD61F2F879C0063635F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		1BE44CD81F2F889A0063635F /* load_space copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "load_space copy.json"; path = "../../Downloads/load_space copy.json"; sourceTree = SOURCE_ROOT; };
 		1F27422AEB12FC04B83B82D5 /* Pods-LottieTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieTest/Pods-LottieTest.debug.xcconfig"; sourceTree = "<group>"; };
 		25EE88BF174BE85789FE4A51 /* Pods-LottieTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieTest/Pods-LottieTest.release.xcconfig"; sourceTree = "<group>"; };
 		D07F32A5129A9E12B36971E2 /* Pods_LottieTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
